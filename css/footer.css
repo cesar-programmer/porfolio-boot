@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--secondary-color-900);
+  height: 140px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  justify-content: center; /* Centers the content horizontally */
+}
+
+
+.footer-links a {
+  color: var(--neutral-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 2%;
+  padding: 1% 2%;
+  font-weight: 500;
+  border-bottom: solid 0.1rem transparent; /* Make the border transparent initially */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.footer-links a:hover {
+  border-bottom: solid 0.1rem var(--primary-color); /* Change to primary color on hover */
+}
